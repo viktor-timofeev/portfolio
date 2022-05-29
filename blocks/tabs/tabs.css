@@ -1,0 +1,42 @@
+.tabs {
+  margin: auto;
+  width: 50%;
+  padding-bottom: 50px;
+}
+
+.tabs>input[type="radio"] {
+  display: none;
+}
+
+.tabs>div {
+  display: none;
+  padding: 10px 15px;
+  font-size: 16px;
+}
+
+#tab-btn-1:checked~#content-1,
+#tab-btn-2:checked~#content-2,
+#tab-btn-3:checked~#content-3,
+#tab-btn-4:checked~#content-4 {
+  display: block;
+}
+
+.tabs>label {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  padding: 2px 8px;
+  font-size: 20px;
+  line-height: 1.5;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+  cursor: pointer;
+  position: relative;
+  top: 1px;
+}
+
+input[type="radio"]:checked+label {
+  color: grey;
+  font-size: 22px;
+  transition: all 0.1s ease-out;
+}

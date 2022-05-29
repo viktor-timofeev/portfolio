@@ -1,0 +1,17 @@
+.portraits__item {
+  height: 150px;
+  width: 150px;
+  overflow: hidden;
+  margin: 0 auto;
+  border-radius: 50%;
+  transition: height 0.2s linear;
+}
+
+.portraits__item:nth-of-type(5) {
+  margin-right: 0;
+}
+
+.portraits__item:active {
+  overflow: visible;
+  z-index: 5;
+}

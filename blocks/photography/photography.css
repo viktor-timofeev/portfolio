@@ -1,0 +1,8 @@
+.photography {
+  padding-top: 100px;
+  padding-bottom: 180px;
+ display: flex;
+ flex-direction: column;
+ position: relative;
+ overflow: hidden;
+}

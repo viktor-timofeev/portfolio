@@ -1,0 +1,10 @@
+.gallery__item {
+  margin: 5px;
+  width: 250px;
+  height: auto;
+}
+
+.gallery__item:hover {
+  padding-top: 1px;
+  padding-left: 1px;
+}

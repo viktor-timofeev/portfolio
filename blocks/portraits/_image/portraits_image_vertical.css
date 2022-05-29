@@ -1,0 +1,11 @@
+.portraits_image_vertical {
+  width: auto;
+  height: 130%;
+  margin-left: -5px;
+  transition: all 1s ease-in;
+}
+
+.portraits__item:hover .portraits_image_vertical {
+  height: 300px;
+  width: auto;
+}

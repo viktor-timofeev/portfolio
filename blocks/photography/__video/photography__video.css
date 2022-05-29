@@ -1,0 +1,8 @@
+.photography__video {
+  position: absolute;
+  z-index: -5;
+  max-width: 100%;
+  margin: auto;
+  overflow: hidden;
+  opacity: 50%;
+}

@@ -1,0 +1,8 @@
+.header__overlay {
+  position: absolute;
+  z-index: -2;
+  min-height: 1000px;
+  width: 100%;
+  background-color: black;
+  opacity: 60%;
+}

@@ -1,0 +1,6 @@
+.portraits__block {
+  display: flex;
+  flex-wrap: no-wrap;
+  width: 920px;
+  margin: 0 auto 100px;
+}

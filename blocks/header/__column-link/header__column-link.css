@@ -1,0 +1,14 @@
+.header__column-link {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: #f2f2f2;
+  text-decoration: none;
+  font-weight: normal;
+  transition: transform color 1s ease-out;
+  opacity: 80%;
+}
+
+.header__column-link:hover {
+  transform: translate(5px, 0);
+  color: grey;
+}
